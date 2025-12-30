@@ -14,6 +14,8 @@ print("Hallo liebes Team von " + firmenname)
 print("Der Name meiner Firma ist: " + firmenname)
 print("Die Dauer meine Weiterbildungsdauer ist: " + str(weiterbildungsdauer) + " Monate")
 
+# Ich lerne ab und zu Python
+print("Nun lerne ich schrittweise")
 
 
 
