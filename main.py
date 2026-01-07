@@ -1,22 +1,14 @@
-print("Hola mundo") # mit einfachen Anführungszeichen '' oder mit doppeltem Anführungszeichen
-print('Hola mundo')
-print('Ich habe Hallo Welt programmiert und bin bald bald ein Python Profi')
+# Wie lautet dein Vorname:? Max
+# Wie lautet dein Nachname:? Mustermann
+# Hallo Max Mustermann
+# Wie alt bist du? 30
+# Wow, noch 70 Jahre, dann bist du 100!
 
-# VARIABLEN
-x = 5
-print(x)
-# Was würde dann passieren, wenn ich print("x") ausgeben?
-print("x") # Antwort: x
-
-firmenname = "CabreDevSuperFirma"
-weiterbildungsdauer = 6
-print("Hallo liebes Team von " + firmenname)
-print("Der Name meiner Firma ist: " + firmenname)
-print("Die Dauer meine Weiterbildungsdauer ist: " + str(weiterbildungsdauer) + " Monate")
-
-# Ich lerne ab und zu Python
-print("Nun lerne ich schrittweise")
-
-
+vorname = str(input("Wie lautet dein Vorname:?"))
+nachname = str(input("Wie lautet dein Nachname:?"))
+print("Hallo", vorname + "" + nachname)
+alter = int(input("Wie alt bist du:?"))
+altersdifferenz = 100 - alter
+print("Wow, noch " + str(altersdifferenz) + " Jahre , dann bist du 100!")
 
 
