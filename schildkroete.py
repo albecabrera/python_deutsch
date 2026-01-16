@@ -1,45 +1,27 @@
 from turtle import *
 
-def quadrat(laenge, fuellfarbe=None):
-    if fuellfarbe:
-        color(fuellfarbe)
-        begin_fill()
-        i = 0
-        while i < 4:
-            forward(laenge)
-            left(90)
-            i = i + 1
+makeTurtle()
 
-        if fuellfarbe:
-            end_fill()
-
-quadrat(100, "red")
-
-
-def dreieck(laenge, fuellfarbe=None):
-    dreieck(200, "green")
-
-# Umpositionieren
-left(180)
-penup()
-forward(200)
-pendown()
-left(180)
-
-def kreis(laenge, fuellfarbe=None):
-    if fuellfarbe:
-            color(fuellfarbe)
-            begin_fill()
-    for i in range(120):
-        forward(laenge)
-        left(3)
-    if fuellfarbe:
-        end_fill()
-
-kreis(5, "yellow")
+# AUFGABE: Zeichne ein Viereck
+# Tipp: Ein Viereck hat 4 gleiche Seiten und 4 rechte Winkel (90°)+
+#
+# Schreibe deinen Code hier:
+repeat 4:
+    fd(100)
+    rt(90)
 
 
 
 
-exitonclick()
 
+
+
+# Wenn du fertig bist, führe den Code aus!
+
+hideTurtle()
+
+# Rückmeldung
+print("\n" + "=" * 50)
+print("✓ Programm erfolgreich ausgeführt!")
+print("=" * 50)
+input("Drücke Enter zum Beenden...")
