@@ -30,5 +30,11 @@ print(warenkorb)#
 warenkorb.remove("Milch") # Ein Element entfernen innerhalb einer Liste.
 print(warenkorb)
 
+neue_liste = ["JavaScript", "Python", "Flutter", "Swift"]
+print(neue_liste)
+neue_liste.append("C++")
+print(neue_liste)
+neue_liste.insert(1, "Go")
+print(neue_liste)
 
 
